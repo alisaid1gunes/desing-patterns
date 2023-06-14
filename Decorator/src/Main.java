@@ -1,5 +1,3 @@
-package Decorator;
-
 public class Main {
     public static void main(String[] args) {
         //Decorator pattern is used to add new functionality to an existing object without changing its structure.

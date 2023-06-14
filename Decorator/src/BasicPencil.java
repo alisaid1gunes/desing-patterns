@@ -1,5 +1,3 @@
-package Decorator;
-
 public class BasicPencil implements Pencil{
     @Override
     public void draw() {

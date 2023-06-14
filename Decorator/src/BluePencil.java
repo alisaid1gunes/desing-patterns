@@ -1,5 +1,3 @@
-package Decorator;
-
 public class BluePencil extends PencilDecorator {
 
     public BluePencil(Pencil pencil) {
