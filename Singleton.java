@@ -12,6 +12,9 @@ public class Singleton {
 }
 
 class  SingleTonTest {
+    /// Singleton pattern is used to create a single instance of a class
+    /// It is a creational pattern that ensures only one object is created for a class.
+    /// It is used in logging, caching, thread pools, configuration settings etc.
     public static void main(String[] args) {
         Singleton s1 = Singleton.getInstance();
         Singleton s2 = Singleton.getInstance();

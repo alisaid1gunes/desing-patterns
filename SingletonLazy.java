@@ -13,6 +13,8 @@ public class SingletonLazy {
 }
 
 class SingleTonLazyTest {
+    // This is a lazy implementation of Singleton pattern
+    // It is used when the Singleton class is heavy and loaded at runtime
     public static void main(String[] args) {
         SingletonLazy s1 = SingletonLazy.getInstance();
         SingletonLazy s2 = SingletonLazy.getInstance();

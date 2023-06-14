@@ -86,6 +86,11 @@ class JewelleryBuilder {
 }
 
 public class Builder {
+
+    /// Builder pattern is used to create complex objects with multiple attributes.
+    /// It is a creational pattern that separates the construction of a complex object from its representation.
+    /// It is used when we need to create an object step by step with a lot of flexibility.
+    /// It is used when we need to create an object with a lot of optional attributes.
     public static void main(String[] args) {
         Jewellery jewellery = new JewelleryBuilder()
                 .setName("Necklace")

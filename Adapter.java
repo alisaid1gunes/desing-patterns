@@ -24,6 +24,7 @@ class CableAdapter implements Cable {
 }
 
 class AdapterTest {
+    /// Adapter pattern is used to connect two incompatible interfaces
     public static void main(String[] args) {
         TypeC typeC = new TypeC();
         Cable cable = new CableAdapter(typeC);
