@@ -1,5 +1,5 @@
 public class SingletonLazy {
-    private static SingletonLazy instance = null;
+    private static SingletonLazy instance;
 
     private SingletonLazy() {
     }
