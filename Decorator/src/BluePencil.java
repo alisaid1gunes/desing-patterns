@@ -4,8 +4,8 @@ public class BluePencil extends PencilDecorator {
         super(pencil);
     }
 
-    public void draw() {
-        super.draw();
-        System.out.println("Drawing with a blue pencil...");
+    public String draw() {
+       return super.draw()+"Blue color";
+
     }
 }

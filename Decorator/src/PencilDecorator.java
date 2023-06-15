@@ -6,7 +6,7 @@ public class PencilDecorator implements Pencil{
     }
 
     @Override
-    public void draw() {
-        System.out.println("Drawing with a pencil...");
+    public String draw() {
+        return pencil.draw();
     }
 }

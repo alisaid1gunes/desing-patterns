@@ -4,10 +4,10 @@ public class Main {
         //It is a structural pattern as this pattern acts as a wrapper to existing class.
 
         Pencil redPencil = new RedPencil(new BasicPencil());
-        redPencil.draw();
+        System.out.println(redPencil.draw());
 
         Pencil bluePencil = new BluePencil(new BasicPencil());
-        bluePencil.draw();
+        System.out.println(bluePencil.draw());
 
 
     }

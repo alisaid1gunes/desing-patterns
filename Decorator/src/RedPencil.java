@@ -6,8 +6,8 @@ public class RedPencil extends PencilDecorator
       super(pencil);
     }
 
-    public void draw() {
-        super.draw();
-        System.out.println("Drawing with a red pencil...");
+    public String draw() {
+       return super.draw()+"Red color";
+
     }
 }
