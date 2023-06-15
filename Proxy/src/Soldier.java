@@ -2,13 +2,15 @@ public class Soldier {
     private String name;
     private String rank;
 
-    public Soldier(String name, String rank) {
+    private ProxyManager proxyManager;
+
+public Soldier(String name, String rank) {
         this.name = name;
         this.rank = rank;
     }
 
     public void work(String request) {
-        ProxyManager proxyManager = new ProxyManager();
+    proxyManager = new ProxyManager();
         if (request.equalsIgnoreCase("fight")) {
             proxyManager = new ProxyManager();
             proxyManager.fight(this);
